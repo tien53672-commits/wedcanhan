@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học menu đa cấp với class và id</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <h1>Học Class và ID</h1>
+      <p>Học menu đa cấp với HTML và CSS</p>
+    </div>
+
+    <!-- Menu -->
+    <div id="menu">
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+
+        <li>
+          <a href="#">Sản phẩm ▾</a>
+          <ul>
+            <li>
+              <a href="#">Điện thoại ▸</a>
+              <ul>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Samsung</a></li>
+                <li><a href="#">Xiaomi</a></li>
+                <li><a href="#">Oppo</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">Laptop ▸</a>
+              <ul>
+                <li><a href="#">Dell</a></li>
+                <li><a href="#">HP</a></li>
+                <li><a href="#">Asus</a></li>
+                <li><a href="#">Macbook</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">Phụ kiện</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Dịch vụ</a></li>
+        <li><a href="#">Tin tức</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </div>
+
+    <!-- Nội dung -->
+    <div id="main">
+      <div id="content" class="box">
+        <h2 class="title">Nội dung trang web</h2>
+        <p>
+          Đây là phần nội dung chính của trang web. Nó sử dụng
+          <b>id="content"</b> để bố cục và <b>class="box"</b> để định dạng khung
+          trắng.
+        </p>
+
+        <p>
+          Thanh menu phía trên là <b>menu đa cấp</b>. Khi trỏ chuột vào mục
+          <b>Sản phẩm</b>, bạn sẽ thấy các danh mục như Điện thoại, Laptop, và
+          các thương hiệu bên trong.
+        </p>
+
+        <!-- Ảnh minh họa nội dung -->
+        <img
+          src="https://cdn.tgdd.vn/Products/Images/42/305659/iphone-16-pro-max-natural-titanium-thumbnew-600x600.jpg"
+          alt="Ảnh minh họa sản phẩm"
+        />
+
+        <a href="#" class="btn">Xem thêm</a>
+      </div>
+
+      <div id="sidebar" class="box">
+        <h3 class="title">Sidebar</h3>
+        <p>
+          Đây là phần sidebar. Cũng dùng class <b>.box</b> để có cùng phong cách
+          với nội dung chính.
+        </p>
+        <a href="#" class="btn">Liên hệ</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <p>© 2025 - Thiết kế bởi Đoàn Văn Tiền</p>
+    </div>
+  </body>
+</html>
